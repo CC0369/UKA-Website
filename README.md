@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # UKA-Website
 demo of website for UKA
 =======
@@ -77,3 +78,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 Demo Website for UTS Korean Association
 >>>>>>> 7df2c2f (about us page, home page, navbar)
+=======
+Demo Website for UTS Korean Association
+>>>>>>> ea87a45 (fix)
