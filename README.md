@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # UKA-Website
 demo of website for UKA
 =======
@@ -73,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> a4c12df (Initialize project using Create React App)
+=======
+Demo Website for UTS Korean Association
+>>>>>>> 7df2c2f (about us page, home page, navbar)
