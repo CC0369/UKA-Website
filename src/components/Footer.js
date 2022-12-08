@@ -1,12 +1,11 @@
+import { Container } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
-import { Nav, Container } from "react-bootstrap";
-
-export const NavBar = () => {
-
-
+export const Footer = () => {
     return (
+        <footer className="footer">
             <Container>
-                <Nav className="navbar">
+                <Row className="align-item-center">
                     <ul className="ms-auto">
                         <a href='/' className='nav-link'>
                             Home
@@ -24,8 +23,8 @@ export const NavBar = () => {
                             Contact Us
                         </a>
                     </ul>
-                </Nav>
+                </Row>
             </Container>
-
+        </footer>
     )
 }

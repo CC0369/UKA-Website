@@ -57,13 +57,6 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
 /************ Navbar Css ************/
 .navbar {
   padding: 50px 0;
@@ -86,7 +79,7 @@ p.danger {
 .ms-auto .nav-link {
   font-weight: 400;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 10 25px;
   opacity: 1;
   display: flex;
   color: #231963;
@@ -129,15 +122,15 @@ p.danger {
 }
 
 .about-bx {
-  background: #ffffff;
+  background: #f7dcdca3;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 160px;
 }
 
 .about h2 {
-  color: #231963;
+  color: #631922;
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -145,14 +138,14 @@ p.danger {
 }
 
 .about h5 {
-  color: #231963;
+  color: #631922;
   font-size: 35px;
   font-weight: 500;
   margin-top: 80px;
 }
 
 .about p {
-  color: #686092;
+  color: #926060;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -164,4 +157,119 @@ p.danger {
   width: 100%;
   margin: 0 auto;
   position: relative;
+}
+
+/************ Sponsors Css ************/
+
+.sponsors {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.sponsors-bx {
+  background: #f7dcf3a3;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 60px;
+}
+
+.sponsors h2 {
+  color: #631963;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  font-size: 30px;
+}
+
+.sponsors p {
+  color: #8c6092;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+  margin-top: 50px;
+}
+
+/************ Events Css ************/
+
+.events {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.events-bx {
+  background: #dedcf7a3;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 60px;
+}
+
+.events h2 {
+  color: #231963;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  font-size: 30px;
+}
+
+.events p {
+  color: #686092;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+  margin-top: 50px;
+}
+
+/************ Contact Css ************/
+
+.contact {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.contact-bx {
+  background: #dcf4f7a3;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 60px;
+}
+
+.contact h2 {
+  color: #195a63;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  font-size: 30px;
+}
+
+/************ Footer Css ************/
+
+.footer {
+  background-color: #d1cdea;
+  padding: 50px 0;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+  font-size: 20px;
+  color: #3d3d3d!important;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.ms-auto .footer-link {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  opacity: 1;
+  display: flex;
+  color: #231963;
+  text-decoration: none;
 }
